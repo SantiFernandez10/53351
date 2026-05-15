@@ -1,0 +1,13 @@
+formula     = implication ;
+implication = disjunction [ "→" implication ] ;
+disjunction = conjunction { "∨" conjunction } ;
+conjunction = negation { "∧" negation } ;
+negation    = "¬" negation | primary ;
+primary     = variable | "(" formula ")" ;
+variable    = letter { variable_char } ;
+variable_char = letter | digit ;
+letter      = "A" | "B" | ... | "Z" | "a" | "b" | ... | "z" ;
+digit       = "0" | "1" | ... | "9" ;
+operator    = "→" | "∨" | "∧" ;
+unary_op    = "¬" ;
+paren       = "(" | ")" ;
