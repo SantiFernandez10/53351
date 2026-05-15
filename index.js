@@ -14,11 +14,11 @@ try {
     // 1. Leemos el archivo de prueba
     const input = fs.readFileSync(fileName, 'utf8');
     
-    // 2. Pasamos el texto al Lexer (separa las palabras/símbolos)
+    // 2. Pasamos el texto al Lexer que separa las palabras y símbolos
     const chars = new antlr4.InputStream(input);
     const lexer = new GramaticaLexer(chars);
     
-    // 3. Pasamos los símbolos al Parser (evalúa la gramática)
+    // 3. Pasamos los símbolos al Parser que va a evaluar la gramática
     const tokens = new antlr4.CommonTokenStream(lexer);
     const parser = new GramaticaParser(tokens);
     parser.buildParseTrees = true;

@@ -1,8 +1,7 @@
 grammar Gramatica;
 
 //REGLAS SINTÁCTICAS
-// Agregamos EOF al final para asegurar que se analice todo el archivo
-// Regla inicial que indica que debe leer una fórmula y luego terminar el archivo
+// Agregamos EOF al final para que se analice todo el archivo
 inicio : formula EOF ;
 
 formula : implication ;

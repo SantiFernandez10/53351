@@ -1,7 +1,9 @@
-// Generated from Gramatica.g4 by ANTLR 4.13.2
+// Generated from c:/Users/santi/OneDrive/Desktop/53351/Gramatica.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 import GramaticaListener from './GramaticaListener.js';
+import GramaticaVisitor from './GramaticaVisitor.js';
+
 const serializedATN = [4,1,8,53,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,
 2,5,7,5,2,6,7,6,1,0,1,0,1,0,1,1,1,1,1,2,1,2,1,2,3,2,23,8,2,1,3,1,3,1,3,5,
 3,28,8,3,10,3,12,3,31,9,3,1,4,1,4,1,4,5,4,36,8,4,10,4,12,4,39,9,4,1,5,1,
@@ -330,6 +332,14 @@ class InicioContext extends antlr4.ParserRuleContext {
 		}
 	}
 
+	accept(visitor) {
+	    if ( visitor instanceof GramaticaVisitor ) {
+	        return visitor.visitInicio(this);
+	    } else {
+	        return visitor.visitChildren(this);
+	    }
+	}
+
 
 }
 
@@ -363,6 +373,14 @@ class FormulaContext extends antlr4.ParserRuleContext {
 	    if(listener instanceof GramaticaListener ) {
 	        listener.exitFormula(this);
 		}
+	}
+
+	accept(visitor) {
+	    if ( visitor instanceof GramaticaVisitor ) {
+	        return visitor.visitFormula(this);
+	    } else {
+	        return visitor.visitChildren(this);
+	    }
 	}
 
 
@@ -406,6 +424,14 @@ class ImplicationContext extends antlr4.ParserRuleContext {
 	    if(listener instanceof GramaticaListener ) {
 	        listener.exitImplication(this);
 		}
+	}
+
+	accept(visitor) {
+	    if ( visitor instanceof GramaticaVisitor ) {
+	        return visitor.visitImplication(this);
+	    } else {
+	        return visitor.visitChildren(this);
+	    }
 	}
 
 
@@ -462,6 +488,14 @@ class DisjunctionContext extends antlr4.ParserRuleContext {
 		}
 	}
 
+	accept(visitor) {
+	    if ( visitor instanceof GramaticaVisitor ) {
+	        return visitor.visitDisjunction(this);
+	    } else {
+	        return visitor.visitChildren(this);
+	    }
+	}
+
 
 }
 
@@ -516,6 +550,14 @@ class ConjunctionContext extends antlr4.ParserRuleContext {
 		}
 	}
 
+	accept(visitor) {
+	    if ( visitor instanceof GramaticaVisitor ) {
+	        return visitor.visitConjunction(this);
+	    } else {
+	        return visitor.visitChildren(this);
+	    }
+	}
+
 
 }
 
@@ -557,6 +599,14 @@ class NegationContext extends antlr4.ParserRuleContext {
 	    if(listener instanceof GramaticaListener ) {
 	        listener.exitNegation(this);
 		}
+	}
+
+	accept(visitor) {
+	    if ( visitor instanceof GramaticaVisitor ) {
+	        return visitor.visitNegation(this);
+	    } else {
+	        return visitor.visitChildren(this);
+	    }
 	}
 
 
@@ -604,6 +654,14 @@ class PrimaryContext extends antlr4.ParserRuleContext {
 	    if(listener instanceof GramaticaListener ) {
 	        listener.exitPrimary(this);
 		}
+	}
+
+	accept(visitor) {
+	    if ( visitor instanceof GramaticaVisitor ) {
+	        return visitor.visitPrimary(this);
+	    } else {
+	        return visitor.visitChildren(this);
+	    }
 	}
 
 
