@@ -1,4 +1,4 @@
-# Analizador Sintáctico Lógico - Legajo 50268
+# Analizador Sintáctico Lógico - Legajo 53351
 
 Este proyecto es un analizador sintáctico para lógica proposicional construido con Node.js y ANTLR4.
 
