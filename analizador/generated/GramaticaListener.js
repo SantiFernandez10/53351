@@ -1,4 +1,4 @@
-// Generated from c:/Users/santi/OneDrive/Desktop/53351/Gramatica.g4 by ANTLR 4.13.2
+// Generated from Gramatica.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 
