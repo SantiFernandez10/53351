@@ -12,10 +12,10 @@ Para probar el analizador, usar el comando `node index.js` y luego el nombre del
 
 ### Pruebas correctas:
 Las pruebas correctas y que no dan errores son estas:
-node index.js input_correcto_1.txt
-node index.js input_correcto_2.txt
+node analizador/index.js input_correcto_1.txt
+node analizador/index.js input_correcto_2.txt
 
 ### Pruebas incorrectas (deben dar error):
 Las pruebas incorrectas y que dan errores son estas:
-node index.js input_incorrecto_1.txt
-node index.js input_incorrecto_2.txt
+node analizador/index.js input_incorrecto_1.txt
+node analizador/index.js input_incorrecto_2.txt
