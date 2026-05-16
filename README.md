@@ -4,11 +4,16 @@ Este analizador fue solicitado para la materia Sintáxis y Semántica de los len
 
 ## Cómo instalar
 1. Clonar este repositorio.
-2. Abrir la terminal en la carpeta del proyecto.
-3. Ejecutar el comando: `npm install`
+2. Abrir la terminal en la carpeta principal (raíz) del proyecto.
+3. Ingresar a la carpeta del código ejecutando: 
+   `cd analizador`
+4. Instalar dependencias ejecutando: 
+   `npm install`
+5. Volver a la carpeta principal ejecutando: 
+   `cd ..`
 
-## Cómo ejecutar las pruebas
-Para probar el analizador, usar el comando `node index.js` y luego el nombre del archivo que queres probar:
+## Cómo ejecutar pruebas
+Una vez instaladas las dependencias y estando parado en la carpeta principal (donde están los archivos .txt), podés copiar y pegar los siguientes comandos para evaluar cada caso:
 
 ### Pruebas correctas:
 Las pruebas correctas y que no dan errores son estas:
