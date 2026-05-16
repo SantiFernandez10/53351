@@ -3,13 +3,14 @@
 Este analizador fue solicitado para la materia Sintáxis y Semántica de los lenguajes, y se realizó con Node.js y ANTLR4.
 
 ## Cómo instalar
-1. Clonar este repositorio.
-2. Abrir la terminal en la carpeta principal (raíz) del proyecto.
-3. Ingresar a la carpeta del código ejecutando: 
+1. Clonar este repositorio en tu computadora.
+2. Ingresar a la carpeta del repositorio recién descargado:
+   `cd 53351`
+3. Ingresar a la subcarpeta del código ejecutando: 
    `cd analizador`
-4. Instalar dependencias ejecutando: 
+4. Instalar las dependencias ejecutando: 
    `npm install`
-5. Volver a la carpeta principal ejecutando: 
+5. Volver a la carpeta principal del proyecto ejecutando: 
    `cd ..`
 
 ## Cómo ejecutar pruebas
